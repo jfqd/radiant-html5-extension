@@ -13,16 +13,16 @@ h2. About
 
 This extension adds a few radius tags to support new html5 elements.
 
-| <r:html5:doctype />         | renders new html5 doctype             |
-| <r:html5:charset />         | renders an utf8-encoding meta charset |
-| <r:html5:legacy_support />  | renders a script element to load modernizr js library to support html5 for older browsers |
-| <r:html5:article />         | renders new html5 article element     |
-| <r:html5:section />         | renders new html5 section element     |
-| <r:html5:nav />             | renders new html5 nav element         |
-| <r:html5:aside />           | renders new html5 aside element       |
-| <r:html5:hgroup />          | renders new html5 hgroup element      |
-| <r:html5:header />          | renders new html5 header element      |
-| <r:html5:footer />          | renders new html5 footer element      |
+| <pre><r:html5:doctype /></pre>         | renders new html5 doctype             |
+| <pre><r:html5:charset /></pre>         | renders an utf8-encoding meta charset |
+| <pre><r:html5:legacy_support /></pre>  | renders a script element to load modernizr js library to support html5 for older browsers |
+| <pre><r:html5:article /></pre>         | renders new html5 article element     |
+| <pre><r:html5:section /></pre>         | renders new html5 section element     |
+| <pre><r:html5:nav /></pre>             | renders new html5 nav element         |
+| <pre><r:html5:aside /></pre>           | renders new html5 aside element       |
+| <pre><r:html5:hgroup /></pre>          | renders new html5 hgroup element      |
+| <pre><r:html5:header /></pre>          | renders new html5 header element      |
+| <pre><r:html5:footer /></pre>          | renders new html5 footer element      |
 
 h2. Samples
 
