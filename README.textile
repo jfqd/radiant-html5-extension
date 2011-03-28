@@ -26,6 +26,8 @@ This extension adds a few radius tags to support new html5 elements.
 
 h2. Samples
 
+h3. Article Element
+
 <pre><code><r:html5:article class="first" data-id="34">
 
 h1. Article Headline
@@ -40,5 +42,32 @@ Output:
   <h1>Article Headline</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 </article></code></pre>
+
+h3. Layout Tab
+
+<pre><code><r:html5:doctype />
+<html>
+  <head>
+    <r:html5:legacy_support />
+  </head>
+  <body>
+    <r:content />
+  </body>
+</html></code></pre>
+
+Output:
+
+<pre><code><!DOCTYPE html>
+<html>
+  <head>
+    <script src="/javascripts/modernizr-1.6.min.js"></script>
+  </head>
+  <body>
+    <article class="new" data-id="34">
+      <h1>Article Headline</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </article>
+  </body>
+</html></code></pre>
 
 Copyright &copy; 2011 qutic.com
