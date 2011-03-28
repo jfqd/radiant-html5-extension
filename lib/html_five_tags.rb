@@ -32,7 +32,7 @@ module HtmlFiveTags
     html5 utf8 charset encoding
   }
   tag 'html5:charset' do |tag|
-    %{<meta charset="utf-8">}
+    %{<meta charset="utf-8" />}
   end
   
   desc %{
