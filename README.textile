@@ -1,0 +1,44 @@
+h1. Radiant html5 extension
+
+This extension adds html5 radius tags to  "radiant":http://github.com/radiant/radiant.
+
+h2. Installation
+
+Starting from your radiant application root directory:
+
+<pre><code>git clone git://github.com/jfqd/radiant-html5-extension.git vendor/extensions/html5
+rake production radiant:extensions:html5:update</code></pre>
+
+h2. About
+
+This extension adds a few radius tags related to new html5 elements to radiant.
+
+| <r:html5:doctype />         | renders new html5 doctype             |
+| <r:html5:charset />         | renders an utf8-encoding meta charset |
+| <r:html5:legacy_support />  | renders a script element to load modernizr js library to support html5 for older browsers |
+| <r:html5:article />         | renders new html5 article element     |
+| <r:html5:section />         | renders new html5 section element     |
+| <r:html5:nav />             | renders new html5 nav element         |
+| <r:html5:aside />           | renders new html5 aside element       |
+| <r:html5:hgroup />          | renders new html5 hgroup element      |
+| <r:html5:header />          | renders new html5 header element      |
+| <r:html5:footer />          | renders new html5 footer element      |
+
+h2. Samples
+
+<pre><code><r:html5:article class="first" data-id="34">
+
+h1. Article Headline
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+</r:html5:article></code></pre>
+
+Output:
+
+<pre><code><article class="first" data-id="34">
+  <h1>Article Headline</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</article></code></pre>
+
+Copyright &copy; 2011 qutic.com
