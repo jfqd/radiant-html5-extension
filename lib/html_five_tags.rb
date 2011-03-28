@@ -1,9 +1,6 @@
 module HtmlFiveTags
   include Radiant::Taggable
   
-  # class HtmlFiveTagError < StandardError; end
-  
-  # Need to know more about html5? http://diveintohtml5.org
   desc %{
     html5 is here to stay. Use it today - for every new project!
     
@@ -46,7 +43,7 @@ module HtmlFiveTags
     %{<script src="/javascripts/modernizr-1.6.min.js"></script>}
   end
   
-  desc %{ x }
+  desc %{ tbd }
   tag 'html5:article' do |tag|
     if tag.double?
       a = element_attributes(tag.attr)
@@ -56,7 +53,7 @@ module HtmlFiveTags
     end
   end
   
-  desc %{ x }
+  desc %{ tbd }
   tag 'html5:section' do |tag|
     if tag.double?
       a = element_attributes(tag.attr)
@@ -66,7 +63,7 @@ module HtmlFiveTags
     end
   end
   
-  desc %{ x }
+  desc %{ tbd }
   tag 'html5:nav' do |tag|
     if tag.double?
       a = element_attributes(tag.attr)
@@ -76,7 +73,7 @@ module HtmlFiveTags
     end
   end
   
-  desc %{ x }
+  desc %{ tbd }
   tag 'html5:aside' do |tag|
     if tag.double?
       a = element_attributes(tag.attr)
@@ -86,7 +83,7 @@ module HtmlFiveTags
     end
   end
   
-  desc %{ x }
+  desc %{ tbd }
   tag 'html5:hgroup' do |tag|
     if tag.double?
       a = element_attributes(tag.attr)
@@ -96,7 +93,7 @@ module HtmlFiveTags
     end
   end
   
-  desc %{ x }
+  desc %{ tbd }
   tag 'html5:header' do |tag|
     if tag.double?
       a = element_attributes(tag.attr)
@@ -106,7 +103,7 @@ module HtmlFiveTags
     end
   end
   
-  desc %{ x }
+  desc %{ tbd }
   tag 'html5:footer' do |tag|
     if tag.double?
       a = element_attributes(tag.attr)
