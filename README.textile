@@ -1,6 +1,6 @@
 h1. Radiant html5 extension
 
-This extension adds html5 radius tags to  "radiant":http://github.com/radiant/radiant.
+This extension adds html5 radius tags to "radiant":http://github.com/radiant/radiant.
 
 h2. Installation
 
