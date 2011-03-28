@@ -13,16 +13,16 @@ h2. About
 
 This extension adds a few radius tags to support new html5 elements.
 
-| <pre><r:html5:doctype /></pre>         | renders new html5 doctype             |
-| <pre><r:html5:charset /></pre>         | renders an utf8-encoding meta charset |
-| <pre><r:html5:legacy_support /></pre>  | renders a script element to load modernizr js library to support html5 for older browsers |
-| <pre><r:html5:article /></pre>         | renders new html5 article element     |
-| <pre><r:html5:section /></pre>         | renders new html5 section element     |
-| <pre><r:html5:nav /></pre>             | renders new html5 nav element         |
-| <pre><r:html5:aside /></pre>           | renders new html5 aside element       |
-| <pre><r:html5:hgroup /></pre>          | renders new html5 hgroup element      |
-| <pre><r:html5:header /></pre>          | renders new html5 header element      |
-| <pre><r:html5:footer /></pre>          | renders new html5 footer element      |
+| <code><r:html5:doctype /></code>         | renders new html5 doctype             |
+| <code><r:html5:charset /></code>         | renders an utf8-encoding meta charset |
+| <code><r:html5:legacy_support /></code>  | renders a script element to load modernizr js library to support html5 for older browsers |
+| <code><r:html5:article /></code>         | renders new html5 article element     |
+| <code><r:html5:section /></code>         | renders new html5 section element     |
+| <code><r:html5:nav /></code>             | renders new html5 nav element         |
+| <code><r:html5:aside /></code>           | renders new html5 aside element       |
+| <code><r:html5:hgroup /></code>          | renders new html5 hgroup element      |
+| <code><r:html5:header /></code>          | renders new html5 header element      |
+| <code><r:html5:footer /></code>          | renders new html5 footer element      |
 
 h2. Samples
 
